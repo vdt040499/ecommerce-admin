@@ -2,7 +2,7 @@ import React from "react";
 import { Form } from "react-bootstrap";
 
 function Input(props) {
-    const { label, type, placeholder, errorMessage, value, onChange } = props;
+  const { label, type, placeholder, errorMessage, value, onChange } = props;
 
   return (
     <Form.Group controlId="formBasicEmail">
